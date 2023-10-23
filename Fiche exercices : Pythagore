@@ -1,0 +1,500 @@
+\documentclass[12pt]{article}
+\usepackage{perso-mat}
+\usepackage{fourier}
+\usepackage{soul}
+\usepackage{cancel}
+\piedsans{4\up{me}}{Cours CH 3}
+\usepackage{ProfCollege}
+\usepackage{ProfMaquette}
+%Packages Figures et graphiques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document} 
+
+\definecolor{bleuclair}{rgb}{0.7, 0.7, 1.0}
+
+
+\begin{Maquette}[Fiche]{Theme=Fiche 1 : Hypothénuse et égalité de Pythagore, Niveau=4,Classe=e}
+
+\begin{exercice}
+    
+
+Pour chaque triangle rectangle indique le côté qui correspond à l'hypoténuse.
+\begin{multicols}{3}
+\begin{enumerate}
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-4.309,-4.237) rectangle (1,4.195);
+
+
+    	\draw (-0.288,0.278)--(-0.566,-0.01)--(-0.278,-0.288);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(-3.309,3.195)--(-3.126,-3.237)--cycle;
+	
+	\draw [black] (0.5,0.003) node[anchor = center,scale=1] {$A$};
+	\draw [black] (-3.479,3.665) node[anchor = center,scale=1] {$B$};
+	\draw [black] (-3.272,-3.715) node[anchor = center,scale=1] {$C$};
+
+\end{tikzpicture}\columnbreak
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-4.936,-1) rectangle (2.6479999999999997,3.974);
+
+
+    	\draw (0.194,0.35)--(-0.156,0.544)--(-0.35,0.194);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(1.648,2.974)--(-3.936,2.182)--cycle;
+	
+	\draw [black] (0.203,-0.457) node[anchor = center,scale=1] {$J$};
+	\draw [black] (2.092,3.205) node[anchor = center,scale=1] {$K$};
+	\draw [black] (-4.431,2.254) node[anchor = center,scale=1] {$L$};
+
+\end{tikzpicture}\columnbreak
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-3.184,-1) rectangle (3.763,4.802);
+
+
+    	\draw (0.235,0.324)--(-0.089,0.559)--(-0.324,0.235);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(2.763,3.802)--(-2.184,1.587)--cycle;
+	
+	\draw [black] (-0.053,-0.497) node[anchor = center,scale=1] {$F$};
+	\draw [black] (3.157,4.11) node[anchor = center,scale=1] {$G$};
+	\draw [black] (-2.682,1.543) node[anchor = center,scale=1] {$H$};
+
+\end{tikzpicture}
+\end{enumerate}
+
+\end{multicols}
+2. WXY est un triangle rectangle en X. Quel côté est l'hypoténuse ? 
+\end{exercice}
+\vspace{1cm}
+\begin{exercice}
+    
+
+Dans chaque cas, donner l'égalité de Pythagore : \\
+\begin{multicols}{3}
+\begin{enumerate}
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-1,-2.436) rectangle (4.947,3.443);
+
+
+    	\draw (0.376,-0.137)--(0.513,0.239)--(0.137,0.376);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(3.947,-1.436)--(0.889,2.443)--cycle;
+	
+	\draw [black] (-0.489,-0.102) node[anchor = center,scale=1] {$S$};
+	\draw [black] (4.345,-1.738) node[anchor = center,scale=1] {$T$};
+	\draw [black] (0.727,2.916) node[anchor = center,scale=1] {$U$};
+
+\end{tikzpicture}\columnbreak
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-1,-3.298) rectangle (2.928,2.607);
+
+
+    	\draw (0.257,-0.306)--(0.563,-0.049)--(0.306,0.257);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(1.928,-2.298)--(1.915,1.607)--cycle;
+	
+	\draw [black] (-0.492,0.088) node[anchor = center,scale=1] {$H$};
+	\draw [black] (2.077,-2.775) node[anchor = center,scale=1] {$I$};
+	\draw [black] (2.078,2.08) node[anchor = center,scale=1] {$J$};
+
+\end{tikzpicture}\columnbreak
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-3.643,-1) rectangle (3.953,4.263999999999999);
+
+
+    	\draw (0.311,0.252)--(0.059,0.563)--(-0.252,0.311);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(2.953,2.391)--(-2.643,3.264)--cycle;
+	
+	\draw [black] (-0.027,-0.499) node[anchor = center,scale=1] {$W$};
+	\draw [black] (3.445,2.478) node[anchor = center,scale=1] {$X$};
+	\draw [black] (-3.09,3.488) node[anchor = center,scale=1] {$Y$};
+
+\end{tikzpicture}
+\end{enumerate}
+
+\end{multicols}
+\end{exercice}
+
+
+\vspace{1cm}
+
+\begin{exercice}
+    
+
+
+
+Dans chaque cas, compléter l'égalité en utilisant le théorème de Pythagore.
+
+\begin{multicols}{3}
+\begin{enumerate}
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-1,-2.436) rectangle (4.947,3.443);
+
+
+    	\draw (0.376,-0.137)--(0.513,0.239)--(0.137,0.376);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(3.947,-1.436)--(0.889,2.443)--cycle;
+	
+	\draw [black] (-0.489,-0.102) node[anchor = center,scale=1] {$S$};
+	\draw [black] (4.345,-1.738) node[anchor = center,scale=1] {$T$};
+	\draw [black] (0.727,2.916) node[anchor = center,scale=1] {$U$};
+
+\end{tikzpicture}\\
+$TU^2=\ldots$\columnbreak
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-1,-3.298) rectangle (2.928,2.607);
+
+
+    	\draw (0.257,-0.306)--(0.563,-0.049)--(0.306,0.257);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(1.928,-2.298)--(1.915,1.607)--cycle;
+	
+	\draw [black] (-0.492,0.088) node[anchor = center,scale=1] {$H$};
+	\draw [black] (2.077,-2.775) node[anchor = center,scale=1] {$I$};
+	\draw [black] (2.078,2.08) node[anchor = center,scale=1] {$J$};
+
+\end{tikzpicture}\\
+$IJ^2=\ldots$\columnbreak
+	\item ~\\
+\begin{tikzpicture}[baseline,scale = 0.6]
+
+    \tikzset{
+      point/.style={
+        thick,
+        draw,
+        cross out,
+        inner sep=0pt,
+        minimum width=5pt,
+        minimum height=5pt,
+      },
+    }
+    \clip (-3.643,-1) rectangle (3.953,4.263999999999999);
+
+
+    	\draw (0.311,0.252)--(0.059,0.563)--(-0.252,0.311);
+	\filldraw [fill opacity = 1.1,fill = none] (0,0)--(2.953,2.391)--(-2.643,3.264)--cycle;
+	
+	\draw [black] (-0.027,-0.499) node[anchor = center,scale=1] {$W$};
+	\draw [black] (3.445,2.478) node[anchor = center,scale=1] {$X$};
+	\draw [black] (-3.09,3.488) node[anchor = center,scale=1] {$Y$};
+
+\end{tikzpicture}\\
+$XY^2=\ldots$
+\end{enumerate}
+
+\end{multicols}
+\end{exercice}
+\newpage
+
+\begin{exercice}
+Un élève de quatrième a demandé de l’aide au rappeur JUL. Ce dernier lui répond sur son profil facebook. JUL a-t-il raison ? Corrige son message.
+
+\begin{center}
+\includegraphics[scale=0.7]{JUL}
+\end{center}
+
+
+\end{exercice}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+\end{Maquette}
+
+
+
+
+\begin{Maquette}[Fiche]{Theme=Fiche 2 : Calculer une longueur à l'aide du théorème de Pythagore,Niveau=4,Classe=e}
+
+
+
+
+
+
+\baselineskip=1.2\baselineskip
+
+
+
+\begin{center}
+\psframebox[linestyle=solid,fillstyle=solid,fillcolor=bleuclair,framearc=0.05,shadow=true]{
+\begin{minipage}{17cm}
+\baselineskip=1.2\baselineskip
+\textbf{\textsc{\large Exemple}}\par
+\textbf{Enoncé:} \par Soit AMF un triangle rectangle en M, tel que AM=21 cm et MF=28 cm. Calculer AF.\vspace{3mm}\par
+\textbf{Solution :}\par
+\begin{center}
+\includegraphics{fig5}
+\end{center} On sait que AMF est un triangle rectangle en M.\par Or, selon le théorème de Pythagore, si un triangle est rectangle, alors le carré de la longueur de l'hypoténuse est égal à la somme des carrés des longueurs des côtés de l'angle droit.\par
+On peut donc écrire l'égalité $\begin{array}[t]{l}
+				\text{AF}^2=\text{MA}^2+\text{MF}^2 \\
+				\text{AF}^2 =21^2+28^2\\
+				\text{AF}^2 =441+784 \\
+				\text{AF}^2 =1225 \\
+				\text{AF}=\sqrt{1225}=35 \\
+				\end{array}$\par
+La longueur AF vaut 35 cm.
+
+\end{minipage}
+}
+\end{center}
+
+\begin{exercice}
+
+\textbf{Enoncé: } Soit EGL un triangle rectangle en L, tel que EL=2,5 cm et LG=6 cm. Calculer la longueur EG.\par
+\textbf{Solution:}
+On sait que \points[1.cm] est un triangle rectangle en \ldots.\par Or, selon le \points[3cm] de \points[3cm], si un triangle est \points[3cm], alors le carré de la longueur de l'\points[2.5cm] est égal à la \points[1.5cm] des carrés des longueurs des côtés de l'angle droit.\par
+On peut donc écrire l'égalité $\begin{array}[t]{l}
+				\text{EG}^2=\text{\ldots\ldots}^2+\text{\ldots\ldots}^2 \\
+				\text{EG}^2=\ldots\ldots^2+\ldots\ldots^2 \\
+				\text{EG}^2=\ldots+\ldots \\
+				\text{EG}^2=\ldots\ldots \\
+				\text{EG}=\sqrt{{\white 1}\ldots\ldots}=\ldots \\
+				\end{array}$\par
+La longueur EG vaut \ldots cm.
+\end{exercice}
+
+\begin{exercice}
+\begin{enumerate}
+\item Soit MKU un triangle rectangle en M, tel que MK=2,4 cm et MU=3,2 cm; calculer la longueur KU.
+\item Soit IHR un triangle rectangle en H, tel que HI=24 cm et HR=7 cm; calculer la longueur IR.
+\item Soit LPA un triangle rectangle en A, tel que AP=6 cm et AL=4 cm; calculer une valeur arrondie au millimètre de la longueur LP.
+\item Soit ZTN un triangle rectangle en Z, tel que TZ=19 cm et NZ=16 cm; calculer une valeur arrondie au centimètre de la longueur TN.
+\end{enumerate}
+\end{exercice}
+
+
+
+\begin{center}
+\psframebox[linestyle=solid,fillstyle=solid,fillcolor=bleuclair,framearc=0.05,shadow=true]{
+\begin{minipage}{17cm}
+\baselineskip=1.2\baselineskip
+\textbf{\textsc{\large Exemple}}\par
+\textbf{Enoncé:} \par Soit BSR un triangle rectangle en S, tel que SB=10 cm et BR=26 cm. Calculer SR.\vspace{3mm}\par
+\textbf{Solution:}\par
+\begin{center}
+\includegraphics{fig6}
+\end{center} On sait que SBR est un triangle rectangle en S.\par Or, selon le théorème de Pythagore, si un triangle est rectangle, alors le carré de la longueur de l'hypoténuse est égal à la somme des carrés des longueurs des côtés de l'angle droit.\par
+On peut donc écrire l'égalité $\begin{array}[t]{l}
+				\text{BR}^2=\text{SB}^2+\text{SR}^2 \\
+				26^2 =10^2+\text{SR}^2\\
+				676 =100+\text{SR}^2\\
+				\text{SR}^2 =676-100 \\
+				\text{SR}^2 =576 \\
+				SR=\sqrt{576}=24 \\
+				\end{array}$\par
+La longueur SR vaut 24 cm.
+
+\end{minipage}
+}
+\end{center}
+
+\begin{exercice}
+
+\textbf{Enoncé: } Soit BHP un triangle rectangle en H, tel que BP=5,3 cm et BH=2,8 cm. Calculer la longueur HP.\par
+\textbf{Solution:}
+On sait que \points[1cm] est un triangle rectangle en \ldots.\par Or, selon le \points[3cm] de \points[3cm], si un triangle est \points[3cm], alors le carré de la longueur de l'\points[2.5cm] est égal à la \points[1.5cm] des carrés des longueurs des côtés de l'angle droit.\par
+On peut donc écrire l'égalité $\begin{array}[t]{l}
+				\text{BP}^2=\text{\ldots\ldots}^2+\text{\ldots\ldots}^2 \\
+				\ldots\ldots^2=\ldots\ldots^2+\text{HP}^2 \\
+				\ldots\ldots=\ldots\ldots+\text{HP}^2 \\
+				\text{HP}^2=\ldots\ldots-\ldots\ldots \\
+				\text{HP}^2=\ldots\ldots\ldots \\
+				\text{HP}=\sqrt{{\white 1}\ldots\ldots\ldots}=\ldots\ldots \\
+				\end{array}$\par
+La longueur HP vaut \ldots\ldots cm.
+\end{exercice}
+
+\begin{exercice}
+    
+
+\begin{enumerate}
+\item Soit SQE un triangle rectangle en S, tel que SE = 6 cm et QE = 7,5 cm; calculer la longueur SQ.
+\item Soit JFX un triangle rectangle en X, tel que FJ = 85 cm et XF = 36 cm; calculer la longueur JX.
+\item Soit MNI un triangle rectangle en N, tel que MI = 14 cm et IN = 7 cm; calculer une valeur arrondie au millimètre de la longueur MN.
+\item Soit OGB un triangle rectangle en B, tel que BO = 27 cm et GO = 44 cm; calculer une valeur arrondie au centimètre de la longueur TN.
+\end{enumerate}
+\end{exercice}
+
+
+
+\begin{exercice}
+\begin{tabular}{l r}
+\begin{minipage}{9.5cm}
+\begin{enumerate}
+\item Réaliser la figure en vraie grandeur.
+\item Calculer la hauteur AH.
+\item Calculer l'aire du triangle ABC
+\item Calculer un valeur arrondie au millimètre de la longueur du côté [AC].
+\end{enumerate}
+\end{minipage}
+&
+\begin{minipage}{8cm}
+\begin{center}
+\includegraphics{fig7}
+\end{center}
+\end{minipage}
+\\
+\end{tabular}
+\end{exercice}
+
+\begin{exercice}
+\begin{tabular}{l r}
+\begin{minipage}{9.5cm}
+On considère une boîte, ayant une forme de pavé droit, pour laquelle AB=6cm, BC=3cm et BF=3cm:
+\begin{enumerate}
+\item Calculer la longueur de l'arête [AC].
+\item Calculer la longueur de la diagonale [AG].
+\item Peut-on faire entrer une baguette de métal de 7 cm de long dans cette boîte?
+\end{enumerate}
+\end{minipage}
+&
+\begin{minipage}{8cm}
+\begin{center}
+\includegraphics{fig8}
+\end{center}
+\end{minipage}
+\\
+\end{tabular}
+\end{exercice}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{Maquette}
+
+\end{document}
