@@ -1,2 +1,2 @@
 # Maths
-Cours et exercices rédigés en LaTeX sous Overleaf
+Cours et exercices niveaux collège et lycée rédigés à l'aide LaTeX avec l'éditeur Overleaf. 
